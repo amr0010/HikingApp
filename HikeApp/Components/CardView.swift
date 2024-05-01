@@ -38,9 +38,13 @@ struct CardView: View {
                         
                         Button(action: {
                             print("Button was tapped")
+                            isShowingSheet.toggle()
                         }) {
                             CustomButtonView()
                         }
+                        .sheet(isPresented: $isShowingSheet, content: {
+                            SettingsView()
+                        })
                     }
                     
                     Text("Get out and stretch your legs")

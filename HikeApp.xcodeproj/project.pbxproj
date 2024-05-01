@@ -13,6 +13,8 @@
 		CF4032342BE1456600E727B3 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4032332BE1456600E727B3 /* GradientButton.swift */; };
 		CF4032382BE149BF00E727B3 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4032372BE149BF00E727B3 /* CustomCircleView.swift */; };
 		CF40323A2BE14B4C00E727B3 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4032392BE14B4C00E727B3 /* MotionAnimationView.swift */; };
+		CF40323D2BE2CF9E00E727B3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF40323C2BE2CF9E00E727B3 /* SettingsView.swift */; };
+		CF40323F2BE2D05400E727B3 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF40323E2BE2D05400E727B3 /* CustomListRowView.swift */; };
 		CF68114F2BDFEDAE003A3FC7 /* HikeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68114E2BDFEDAE003A3FC7 /* HikeAppApp.swift */; };
 		CF6811512BDFEDAE003A3FC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6811502BDFEDAE003A3FC7 /* ContentView.swift */; };
 		CF6811532BDFEDAF003A3FC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6811522BDFEDAF003A3FC7 /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 		CF4032332BE1456600E727B3 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		CF4032372BE149BF00E727B3 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		CF4032392BE14B4C00E727B3 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		CF40323C2BE2CF9E00E727B3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CF40323E2BE2D05400E727B3 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 		CF68114B2BDFEDAE003A3FC7 /* HikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF68114E2BDFEDAE003A3FC7 /* HikeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeAppApp.swift; sourceTree = "<group>"; };
 		CF6811502BDFEDAE003A3FC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 				CF4032312BE1440700E727B3 /* CustomButtonView.swift */,
 				CF4032372BE149BF00E727B3 /* CustomCircleView.swift */,
 				CF4032392BE14B4C00E727B3 /* MotionAnimationView.swift */,
+				CF40323E2BE2D05400E727B3 /* CustomListRowView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -65,6 +70,15 @@
 				CF4032332BE1456600E727B3 /* GradientButton.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		CF40323B2BE2CF8A00E727B3 /*  Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CF6811502BDFEDAE003A3FC7 /* ContentView.swift */,
+				CF40323C2BE2CF9E00E727B3 /* SettingsView.swift */,
+			);
+			path = " Screen";
 			sourceTree = "<group>";
 		};
 		CF6811422BDFEDAE003A3FC7 = {
@@ -86,9 +100,9 @@
 		CF68114D2BDFEDAE003A3FC7 /* HikeApp */ = {
 			isa = PBXGroup;
 			children = (
+				CF40323B2BE2CF8A00E727B3 /*  Screen */,
 				CF40322E2BE13FC500E727B3 /* Utility */,
 				CF68114E2BDFEDAE003A3FC7 /* HikeAppApp.swift */,
-				CF6811502BDFEDAE003A3FC7 /* ContentView.swift */,
 				CF6811522BDFEDAF003A3FC7 /* Assets.xcassets */,
 				CF6811542BDFEDAF003A3FC7 /* Preview Content */,
 				CF40322B2BE13EA400E727B3 /* Components */,
@@ -176,9 +190,11 @@
 			files = (
 				CF4032342BE1456600E727B3 /* GradientButton.swift in Sources */,
 				CF4032382BE149BF00E727B3 /* CustomCircleView.swift in Sources */,
+				CF40323F2BE2D05400E727B3 /* CustomListRowView.swift in Sources */,
 				CF6811512BDFEDAE003A3FC7 /* ContentView.swift in Sources */,
 				CF68115D2BDFEF32003A3FC7 /* CardView.swift in Sources */,
 				CF68114F2BDFEDAE003A3FC7 /* HikeAppApp.swift in Sources */,
+				CF40323D2BE2CF9E00E727B3 /* SettingsView.swift in Sources */,
 				CF4032322BE1440700E727B3 /* CustomButtonView.swift in Sources */,
 				CF40323A2BE14B4C00E727B3 /* MotionAnimationView.swift in Sources */,
 				CF40322D2BE13EB600E727B3 /* CustomBackgroundView.swift in Sources */,
